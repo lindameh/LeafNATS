@@ -422,5 +422,5 @@ class natsEnd2EndBase(object):
         for model_name in self.base_models:
             self.base_models[model_name].eval()
         with torch.no_grad():
-            while 1:
-                self.app_worker()
+#            while 1:
+            self.app_worker()
